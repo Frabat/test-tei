@@ -1,0 +1,9 @@
+*.css
+*.svg
+*.d.ts
+src/reportWebVitals.ts
+src/setupTests.ts
+.eslintrc.js
+tsconfig.json
+config-overrides.js
+
