@@ -10,7 +10,7 @@ module.exports = aliasWebpack(options)
 module.exports = function override(config) {
 	const fallback = config.resolve.fallback || {};
 	alias({
-		'@': 'src/'
+		'@root': 'src'
 	})(config);
 	return config;
 };

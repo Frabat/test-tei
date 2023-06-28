@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Test} from '@/TestApp';
-
+import {Test} from '@root/TestApp';
 
 function App() {
 	return (
